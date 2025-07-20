@@ -1,0 +1,14 @@
+{
+    "name": "chat-app",
+    "version": "1.0.0",
+    "description": "A simple chat application",
+    "main": "index.js",
+    "scripts": {
+        "build": "npm install --prefix frontend/ChatApp && npm install --prefix backend && npm run build --prefix backend && npm run build --prefix frontend/ChatApp",
+        "start": "npm run start --prefix backend"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+    
+}
